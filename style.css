@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+
+body {
+    margin: 0px;
+    padding: 40px 150px;
+
+    background-color: rgb(245, 239, 232);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.header {
+    font-size: 50px;
+    font-family: 'Yeon Sung', cursive;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+
+}
+
+.player1-card,
+.player2-card {
+    width: 350px;
+    height: 140px;
+    border: 2px solid green;
+}
+.game-board {
+    
+}
+.board-square {
+    border: 2px solid blue;
+    width: 80px;
+    height: 80px;
+}
