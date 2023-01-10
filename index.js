@@ -15,7 +15,8 @@ function gameSetup() {
         cells[j].addEventListener("click", () => {
             const c = j % 3;
             const i = (j - c)/3;
-            board[i][c] = playerTurn;
+            if (board[i][c] === X || board[i][c] === O) board[i][c];
+            else board[i][c] = playerTurn;
             drawBoard(board);
             if (playerTurn === X) playerTurn = O;
             else playerTurn = X;
