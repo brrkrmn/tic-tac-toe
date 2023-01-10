@@ -25,7 +25,7 @@ body {
 
     display: flex;
     justify-content: space-around;
-    gap: 40px;
+    gap: 60px;
 }
 
 .player-cards {
@@ -99,5 +99,17 @@ body {
 
     background-color: #144272;
     border-radius: 10px;
+    border-style: none;
 }
+
+.cell-o::before { 
+    content: "O"; 
+    color: #23bdb8;
+}
+
+.cell-x::before {
+    content: "X"; 
+    color: #f1327b;
+}
+
 
