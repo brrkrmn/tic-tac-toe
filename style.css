@@ -112,4 +112,31 @@ body {
     color: #f1327b;
 }
 
+.x-hover {
+    background-color: #e7a3bd;
+}
 
+.o-hover {
+    background-color: #aecfce;
+}
+
+.restart-button {
+    padding: 8px 20px;
+    width: 250px;
+    height: 80px;
+
+    color: #d9eae6;
+    font-size: 38px;
+    font-family: 'Yeon Sung', cursive;
+    text-align: center;
+    line-height: 80px;
+
+    background-color: #144272;
+
+    border-style: none;
+    border-radius: 20px;
+}
+
+.restart-button:hover {
+    background-color: #0f2f52;
+}
